@@ -14,8 +14,9 @@ before do
 end
 
 get '/' do
-  'LiT'
+    erb :top
 end
+
 
 get '/count' do
     @number = Count.first.number
