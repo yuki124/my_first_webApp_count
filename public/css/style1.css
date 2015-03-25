@@ -1,5 +1,46 @@
 @charset "utf-8";
+
+
+ body {
+    text-align: center;
+    background-color: white;
+}
+
 h1 {
     color: blue;
-    text-align: center;
 }
+
+h2 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a  {
+    display: block;
+    width: 100px;
+    background-color: lime;
+    color: black;
+    text-decoration: none;
+}
+
+a.pos_fixed {
+    position: fixed;
+    top: 70px;
+    left: 20px;
+    color: lime;
+}
+
+
+
+
+/* find how to make a menu bar. also find how to move boxes to where you want them to go.*/
+
