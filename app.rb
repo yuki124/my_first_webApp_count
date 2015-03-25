@@ -4,6 +4,8 @@ require 'sinatra/reloader' if development?
 
 require './models/count.rb'
 
+set :public_dir, File.dirname(__FILE__) + '/public'
+
 set :bind, '192.168.33.10'
 set :port, 3000
 
